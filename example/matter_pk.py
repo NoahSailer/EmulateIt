@@ -2,8 +2,8 @@ from EmulateIt.make_training_data import make_training_data
 import numpy as np
 from classy import Class
 
-kval = np.logspace(-3,1,5000) # [h/Mpc]
-z    = 0.5                    # redshift
+kval = np.logspace(-3,1,500) # [h/Mpc]
+z    = 0.5                   # redshift
 
 def get_matter_pk(cosmo_params):
     """returns the matter power spectrum given cosmo_params=log1e10As,ns,omc,omb,h"""
@@ -18,7 +18,7 @@ def get_matter_pk(cosmo_params):
     return np.array([cosmo.pk_cb(k*h,z)*h**3. for k in kval])
 
 if __name__ == 'main':
-    num_samples     = int(1e4)
+    num_samples     = int(1e6)
     input_bounds    = [(2,4),(0.95,1.05),(0.05,0.15),(0.005,0.02),(0.5,0.9)]
     input_filename  = 'mpk_inputs.npy'
     output_filename = 'mpk_outputs.npy'
