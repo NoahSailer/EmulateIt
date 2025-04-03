@@ -11,7 +11,7 @@ def save_model_weights(model, filename):
         json.dump(weights, f)
     print(f"Model weights saved to {filename}")
 
-def train_neural_network(input_filename, output_filename, weights_filename, hidden_layer_sizes=(100,), max_iter=500)):
+def train_neural_network(input_filename, output_filename, weights_filename, hidden_layer_sizes=(100,), max_iter=500):
     model = MLPRegressor(hidden_layer_sizes=hidden_layer_sizes, max_iter=max_iter, random_state=42)
     model.fit(np.load(input_filename), np.load(output_filename))
     save_model_weights(model, weights_filename)
