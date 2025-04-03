@@ -17,8 +17,8 @@ class neural_network_emulator:
     def evaluate(self,inputs):
         """Performs a forward pass of the neural network."""
         layer_output = inputs
-        for i, (coef, intercept) in enumerate(zip(weights["coefs"], weights["intercepts"])):
+        for i, (coef, intercept) in enumerate(zip(self.weights["coefs"], self.weights["intercepts"])):
             layer_output = np.dot(layer_output, np.array(coef)) + np.array(intercept)
-            if i < len(weights["coefs"]) - 1:  # Apply ReLU only to hidden layers
+            if i < len(self.weights["coefs"]) - 1:  # Apply ReLU only to hidden layers
                 layer_output = relu(layer_output)
         return layer_output
