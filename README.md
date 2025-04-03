@@ -18,8 +18,9 @@ The training data is saved as `mpk_inputs.npy` and `mpk_outputs.npy`. To then tr
 you can use the `train-nn [inputs.npy] [outputs.npy] [weights.json]` command within an enviornment 
 where `scikit-learn` is installed:
 ```
-conda activate nntrainer                                             
-srun -n 128 train-nn mpk_inputs.npy mpk_outputs.npy mpk_weights.json
+conda activate nntrainer
+export OMP_NUM_THREADS=128                                          
+srun -n 1 -c 128 train-nn mpk_inputs.npy mpk_outputs.npy mpk_weights.json
 ```
 To test the emulator against CLASS, see `matter_pk_emu.py`.
 
