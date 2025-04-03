@@ -22,6 +22,6 @@ setuptools.setup(
     python_requires='>=3.6',
     install_requires=['numpy','scipy'],
     entry_points={
-        "console_scripts": ["train-nn=EmulateIt.evaluate_nn:train_neural_network"]
+        "console_scripts": ["train-nn=EmulateIt.train_neural_network:train_neural_network"]
     },
 )
