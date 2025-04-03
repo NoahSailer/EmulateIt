@@ -1,4 +1,4 @@
-# EmuateIt
+# EmulateIt
 
 To install:
 ```
