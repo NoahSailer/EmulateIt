@@ -17,8 +17,8 @@ def get_matter_pk(cosmo_params):
     cosmo.compute()
     return np.array([cosmo.pk_cb(k*h,z)*h**3. for k in kval])
 
-num_samples     = int(1e6)
-input_bounds    = [(2,4),(0.95,1.05),(0.05,0.15),(0.005),(0.02),(0.5,0.9)]
+num_samples     = int(1e4)
+input_bounds    = [(2,4),(0.95,1.05),(0.05,0.15),(0.005,0.02),(0.5,0.9)]
 input_filename  = 'mpk_inputs.npy'
 output_filename = 'mpk_outputs.npy'
 make_training_data(num_samples, input_bounds, get_matter_pk, input_filename, output_filename)
