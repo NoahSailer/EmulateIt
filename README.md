@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" style="width: 200px; border: 3px solid #99d5ff; border-radius: 18px;" />
-  <div>
+  <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" style="width: 200px; margin-right: 16px;" />
+  <div style="display: flex; flex-direction: column;">
     <h1 style="margin: 0;">EmulateIt</h1>
     <p style="margin-top: 4px;">
       A simple package for emulating whatever your heart desires.
