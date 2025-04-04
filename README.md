@@ -4,8 +4,8 @@
       <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="130"/>
     </td>
     <td style="border: none;">
-      <strong><h3>EmulateIt</h3></strong><br>
-      Emulate whatever your ❤️ desires. Install with:
+      <h3>EmulateIt</h3>
+      Emulate whatever your ❤️ desires. Install with:<br>
       <pre>pip install -v git+https://github.com/NoahSailer/EmulateIt</pre>
     </td>
   </tr>
