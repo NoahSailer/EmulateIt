@@ -1,4 +1,4 @@
-| ![Figure](https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png) | <h1> EmulateIt </h1>  <br> <h3> A simple package for emulating whatever your heart desires. </h3> |
+| <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" width="20"/> | <h1> EmulateIt </h1>  <br> <h3> A simple package for emulating whatever your heart desires. </h3> |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 To install:
