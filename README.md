@@ -1,6 +1,7 @@
 # EmulateIt
+## A simple package for emulating whatever your heart desires
 
-A simple package for emulating whatever your heart desires.
+![Emu ditto](https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png)
 
 To install:
 ```
