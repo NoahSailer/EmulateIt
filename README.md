@@ -1,7 +1,7 @@
 <table style="border: 5px solid #2b3137; border-radius: 8px;">
   <tr>
     <td style="border: none; vertical-align: top;">
-      <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="140"/>
+      <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="120"/>
     </td>
     <td style="border: none;">
       <strong><font size="8">EmulateIt</font></strong><br>
