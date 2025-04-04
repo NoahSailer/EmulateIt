@@ -1,12 +1,12 @@
 <div style="display: flex; align-items: flex-start; gap: 20px; padding: 0; margin: 0;">
   <!-- Text Section -->
-  <div style="flex: 1;">
+  <div style="flex: 0;">
     <h3 style="margin-top: 0; padding-top: 0;">EmulateIt</h3>
     <p>A simple package for emulating whatever your heart desires.</p>
   </div>
 
   <!-- Image Section -->
-  <div>
+  <div style="flex: 1;">
     <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" style="width: 200px; height: auto;" />
   </div>
 </div>
