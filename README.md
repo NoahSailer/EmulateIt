@@ -4,9 +4,9 @@
       <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="120"/>
     </td>
     <td style="border: none;">
-      <strong><font size="8">EmulateIt</font></strong><br>
-      Emulate whatever your ❤️ desires.<br><br>
-      Install with <code>pip install -v git+https://github.com/NoahSailer/EmulateIt</code>.
+      <strong><font size="8">EmulateIt</font></strong><br><br>
+      Eemulate whatever your ❤️ desires. Install with:<br>
+      ```pip install -v git+https://github.com/NoahSailer/EmulateIt```
     </td>
   </tr>
 </table>
