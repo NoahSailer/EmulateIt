@@ -1,15 +1,16 @@
 <table style="border: none;">
   <tr>
     <td>
-      <h3>EmulateIt</h3>
+      <h2>EmulateIt</h2>
       A simple package for emulating whatever your heart desires.<br><br>
-      Install with <code>pip install -v git+https://github.com/NoahSailer/EmulateIt</code>.
     </td>
     <td>
       <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="100"/>
     </td>
   </tr>
 </table>
+
+Install with `pip install -v git+https://github.com/NoahSailer/EmulateIt`.
 
 <hr />
 
