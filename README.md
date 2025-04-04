@@ -1,5 +1,12 @@
-| <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" width="20"/> | <h1> EmulateIt </h1>  <br> <h3> A simple package for emulating whatever your heart desires. </h3> |
-|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+<div style="display: flex; align-items: flex-start;">
+  <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" style="margin-right: 16px;" />
+  <div>
+    <h1 style="margin: 0;">EmulateIt</h1>
+    <p style="margin-top: 4px;">
+      A simple package for emulating whatever your heart desires.
+    </p>
+  </div>
+</div>
 
 To install:
 ```
