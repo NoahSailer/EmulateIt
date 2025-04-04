@@ -1,4 +1,4 @@
-## EmulateIt
+### EmulateIt
 
 <table style="border: 5px solid #2b3137; border-radius: 8px;">
   <tr>
@@ -11,8 +11,6 @@
     </td>
   </tr>
 </table>
-
-<hr />
 
 Here's an example for generating training data:
 ```
