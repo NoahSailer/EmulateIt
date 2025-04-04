@@ -1,15 +1,15 @@
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <!-- Text section (left) -->
-  <div>
-    <h3 style="margin-top: 0;">EmulateIt</h3>
-    <p>A simple package for emulating whatever your heart desires.</p>
-  </div>
-
-  <!-- Image section (right) -->
-  <div>
-    <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" style="width: 100px; height: auto;" />
-  </div>
-</div>
+<table>
+  <tr>
+    <td>
+      <h3>EmulateIt</h3>
+      A simple package for emulating whatever your heart desires.<br><br>
+      To install: `pip install -v git+https://github.com/NoahSailer/EmulateIt`
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="150"/>
+    </td>
+  </tr>
+</table>
 
 To install:
 ```
