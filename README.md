@@ -1,10 +1,11 @@
+## EmulateIt
+
 <table style="border: 5px solid #2b3137; border-radius: 8px;">
   <tr>
     <td style="border: none; vertical-align: top;">
       <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="130"/>
     </td>
-    <td style="border: none;">
-      <h3>EmulateIt</h3>
+    <td style="border: none; vertical-align: top;">
       Emulate whatever your ❤️ desires. Install with:<br>
       <pre>pip install -v git+https://github.com/NoahSailer/EmulateIt</pre>
     </td>
