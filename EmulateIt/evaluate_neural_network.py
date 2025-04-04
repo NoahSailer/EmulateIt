@@ -7,9 +7,9 @@ def load_model_weights(filename):
         weights = json.load(f)
     return weights
 
-def relu(x):
-    """ReLU activation function."""
-    return np.maximum(0, x)
+def sigmoid(x):
+    """Sigmoid (logistic) activation function."""
+    return 1 / (1 + np.exp(-x))
 
 class neural_network_emulator:
     def __init__(self,weights_path):
@@ -20,5 +20,5 @@ class neural_network_emulator:
         for i, (coef, intercept) in enumerate(zip(self.weights["coefs"], self.weights["intercepts"])):
             layer_output = np.dot(layer_output, np.array(coef)) + np.array(intercept)
             if i < len(self.weights["coefs"]) - 1:  # Apply ReLU only to hidden layers
-                layer_output = relu(layer_output)
+                layer_output = sigmoid(layer_output)
         return layer_output
