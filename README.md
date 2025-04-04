@@ -7,7 +7,7 @@
 
   <!-- Image section (right) -->
   <div>
-    <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" style="width: 200px; height: auto;" />
+    <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" style="width: 100px; height: auto;" />
   </div>
 </div>
 
