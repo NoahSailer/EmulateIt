@@ -1,11 +1,11 @@
-<div style="display: flex; align-items: flex-start; flex-direction: column">
-  <div style="display: flex; flex-direction: column; align-self: flex-start; flex: 0; justify-content: flex-start; padding: 0; margin: 0">
-    <h3 style="margin: 0;">EmulateIt</h3>
-    <h5 style="margin-top: 4px;">
+<div style="display: flex; align-items: flex-start; gap: 20px; padding: 0; margin: 0;">
+  <div style="display: block; padding: 0; margin: 0; align-self: flex-start">
+    <h3 style="margin-top: 0; padding-top: 0;">EmulateIt</h3>
+    <p>
       A simple package for emulating whatever your heart desires.
-    </h5>
+    </p>
   </div>
-  <div style="display: flex; flex-direction: column; align-self: flex-start; flex: 1; justify-content: flex-start; padding: 0; margin: 0">
+  <div style="width: 200px; height: auto; bject-fit: cover; display: block; flex: 1; justify-content: flex-start; padding: 0; margin: 0; align-self: flex-start">
     <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" style="width: 200px; margin-right: 16px; align-self: flex-start" />
   </div>
 </div>
