@@ -1,4 +1,4 @@
-| ![Figure]([https://via.placeholder.com/150](https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png)) | ### EmulateIt  <br> A simple package for emulating whatever your heart desires. |
+| ![Figure](https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png) | ### EmulateIt  <br> A simple package for emulating whatever your heart desires. |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 To install:
