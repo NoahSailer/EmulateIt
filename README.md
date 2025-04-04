@@ -1,16 +1,15 @@
 <table style="border: 5px solid #2b3137; border-radius: 8px;">
   <tr>
     <td style="border: none; vertical-align: top;">
-      <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="150"/>
+      <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="140"/>
     </td>
     <td style="border: none;">
-      <strong><font size="6">EmulateIt</font><br></strong>
+      <strong><font size="8">EmulateIt</font></strong><br>
       Emulate whatever your ❤️ desires.<br><br>
+      Install with <code>pip install -v git+https://github.com/NoahSailer/EmulateIt</code>.
     </td>
   </tr>
 </table>
-
-Install with `pip install -v git+https://github.com/NoahSailer/EmulateIt`.
 
 <hr />
 
