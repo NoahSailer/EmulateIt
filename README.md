@@ -6,7 +6,7 @@
       Install with <code>pip install -v git+https://github.com/NoahSailer/EmulateIt</code>.
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="150"/>
+      <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="100"/>
     </td>
   </tr>
 </table>
