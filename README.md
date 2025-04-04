@@ -1,9 +1,9 @@
-<table>
+<table style="border: none;">
   <tr>
     <td>
       <h3>EmulateIt</h3>
       A simple package for emulating whatever your heart desires.<br><br>
-      To install: `pip install -v git+https://github.com/NoahSailer/EmulateIt`
+      Install with <code>pip install -v git+https://github.com/NoahSailer/EmulateIt</code>.
     </td>
     <td>
       <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="150"/>
@@ -11,10 +11,7 @@
   </tr>
 </table>
 
-To install:
-```
-pip install -v git+https://github.com/NoahSailer/EmulateIt
-```
+<hr />
 
 Here's an example for generating training data:
 ```
