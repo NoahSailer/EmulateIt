@@ -1,5 +1,7 @@
 <div style="display: flex; align-items: flex-start; flex-direction: column">
-  <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" style="width: 200px; margin-right: 16px; align-self: flex-start" />
+  <div style="flex-shrink: 0;">
+    <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" style="width: 200px; margin-right: 16px; align-self: flex-start" />
+  </div>
   <div style="display: flex; flex-direction: column; align-self: flex-start; flex: 1; justify-content: flex-start; padding: 0; margin: 0">
     <h3 style="margin: 0;">EmulateIt</h3>
     <p style="margin-top: 4px;">
