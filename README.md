@@ -1,11 +1,11 @@
 <table style="border: none;">
   <tr>
     <td>
-      <h2>EmulateIt</h2>
-      A simple package for emulating whatever your heart desires.<br><br>
+      <h3>EmulateIt</h3>
+      A simple package for emulating whatever your heart desires.
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="100"/>
+      <img src="https://raw.githubusercontent.com/NoahSailer/EmulateIt/main/figures/emuditto.png" alt="Emuditto" width="150"/>
     </td>
   </tr>
 </table>
