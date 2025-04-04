@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: flex-start;">
-  <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" style="margin-right: 16px;" />
+  <img src="https://github.com/NoahSailer/EmulateIt/blob/main/figures/emuditto.png" style="width: 200px; border: 3px solid #99d5ff; border-radius: 18px;" />
   <div>
     <h1 style="margin: 0;">EmulateIt</h1>
     <p style="margin-top: 4px;">
