@@ -1,3 +1,4 @@
+from EmulateIt.training_directory import training_directory 
 from mpi4py import MPI
 import numpy as np
 
@@ -11,15 +12,16 @@ def generate_training_data(num_samples, input_bounds, function_to_evaluate):
     outputs = np.array([function_to_evaluate(x) for x in inputs])
     return inputs, outputs
 
-def make_training_data(num_samples, input_fid, input_bounds, function_to_evaluate, training_directory='./'):
+def make_training_data(num_samples, input_fid, input_bounds, function_to_evaluate, train_dir='./'):
     comm = MPI.COMM_WORLD
     rank = comm.Get_rank()
     size = comm.Get_size()
+    tdir = training_directory(train_dir)
     if rank == 0: 
         print(f"Running {size} processes",flush=True)
         output_fid = function_to_evaluate(input_fid)
-        np.save(f"{training_directory}fid-data_inputs.npy",input_fid)
-        np.save(f"{training_directory}fid-data_outputs.npy",output_fid)
+        np.save(tdir.fid_in,input_fid)
+        np.save(tdir.fid_out,output_fid)
     samples_per_proc = num_samples // size
     local_inputs, local_outputs = generate_training_data(samples_per_proc, input_bounds, function_to_evaluate)
     gathered_inputs = comm.gather(local_inputs, root=0)
@@ -27,6 +29,6 @@ def make_training_data(num_samples, input_fid, input_bounds, function_to_evaluat
     if rank == 0:
         all_inputs = np.vstack(gathered_inputs)
         all_outputs = np.vstack(gathered_outputs)
-        np.save(f"{training_directory}training-data_inputs.npy", all_inputs)
-        np.save(f"{training_directory}training-data_outputs.npy", all_outputs)
-        print(f"Saved {len(all_inputs)} training samples to {input_filename} and {output_filename}.",flush=True)
+        np.save(tdir.train_in, all_inputs)
+        np.save(tdir.train_out, all_outputs)
+        print(f"Saved {len(all_inputs)} training samples to {tdir.train_in} and {tdir.train_out}.",flush=True)
