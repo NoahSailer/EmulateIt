@@ -11,25 +11,26 @@ def save_model_weights(model, filename):
         json.dump(weights, f)
     print(f"Model weights saved to {filename}")
 
-def train_neural_network(input_filename, output_filename, weights_filename, 
-                         hidden_layer_sizes=(100,100,100), 
-                         activation='logistic'):
+def train_neural_network(training_directory, 
+                         hidden_layer_sizes=(200,200,200), 
+                         activation='tanh'):
     """trains the NN"""
+    input_filename = f"{training_directory}training-data_inputs.npy"
+    output_filename = f"{training_directory}training-data_outputs.npy"
+    weights_filename = f"{training_directory}trained_weights.npy"
     model = MLPRegressor(hidden_layer_sizes=hidden_layer_sizes,
                          activation=activation,  
-                         solver='adam', 
+                         solver='lbfgs', 
                          max_iter=5000, 
                          learning_rate='adaptive',
-                         tol=1e-5,
+                         tol=1e-6,
                          random_state=42)
     model.fit(np.load(input_filename), np.load(output_filename))
     save_model_weights(model, weights_filename)
 
 def main():
     parser = argparse.ArgumentParser(description="Evaluate a neural network from saved weights.")
-    parser.add_argument("input_filename", type=str, help="Path to the .npy file containing input data.")
-    parser.add_argument("output_filename", type=str, help="Path to save the evaluation output as a .npy file.")
-    parser.add_argument("weights_filename", type=str, help="Path to the JSON file containing model weights.")
+    parser.add_argument("training_directory", type=str, help="Path to training data.")
     args = parser.parse_args()
     train_neural_network(args.input_filename, args.output_filename, args.weights_filename)
     
