@@ -20,7 +20,6 @@ def get_matter_pk(cosmo_params):
 
 if __name__ == '__main__':
     num_samples     = int(1e5)
+    input_fid       = [3,0.97]
     input_bounds    = [(2,4),(0.95,1.05)]
-    input_filename  = 'mpk_inputs.npy'
-    output_filename = 'mpk_outputs.npy'
-    make_training_data(num_samples, input_bounds, get_matter_pk, input_filename, output_filename)
+    make_training_data(num_samples, input_fid, input_bounds, get_matter_pk, training_directory='./')
